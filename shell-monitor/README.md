@@ -1,7 +1,7 @@
 ## analyseLog.sh
 分析 artifactory request log 日志
 
-汇聚的日志文件和分析结果存放在目录 artilog
+汇聚的日志文件和分析结果存放在目录 artiLog
 
 ## baseMonitor.sh
 收集一段时间的操作系统数据进行监控：CPU 内存 磁盘，确保可以运行以下命令：

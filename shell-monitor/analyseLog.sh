@@ -10,7 +10,7 @@ echo your input dir="$ARCH_LOG_SOURCE_DIR"
 arch_filename="artifactory-request.*.log.gz"
 #source_dir="/data/jfrog/artifactory/var/log/archived/"
 source_dir="$ARCH_LOG_SOURCE_DIR"
-target_dir="artilog"
+target_dir="artiLog"
 
 rm -rf $target_dir
 mkdir -p $target_dir
@@ -23,7 +23,7 @@ done
 
 echo "merge Artifactory request logs"
 
-cd artilog
+cd artiLog
 
 # 设置目标文件的路径
 output_file="artifactory-request-all.log"
